@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>JOGO DA VELHA</h1>
+    <h2 id>########</h2>
+    <div id="buttons-container">
+        <button id="two-players">2 players</button>
+        <button id="ai-player">Contra AI</button>
+    </div>
+    <div id="container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+    </div>
+    <div id="scoreboard-container" class="hide">
+        <h2>Placar:</h2>
+        <span class="score-box">
+            <span id="x-scoreboard">x</span>:
+            <span id="scoreboard1">0</span>  
+        </span>
+        <span class="score-box">
+            <span id="o-scoreboard"></span>:
+            <span id="scoreboard2">0</span>  
+        </span>
+    </div>
+
+    <div class="hide">
+        <div class="x">x</div>
+        <div class="o"></div>
+    </div>
+
+    <div id='message' class="hide">
+        <p></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
